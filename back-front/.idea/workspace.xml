@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f6eae7f-779f-4220-8a87-b9afee551090" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BYrEEzQsMCWFtTOPzduTnzfYWb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yeb-server/src/main/java/com/shixun/server/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33693045" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\java\com\shixun\server\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\java\com\shixun\server\controller" />
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\java\com\shixun\server\config" />
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\java\com\shixun\server\config\security" />
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\resources" />
+      <recent name="D:\workplace_2\yeb-sys\yeb-server\src\main\java\com\shixun\server\service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shixun.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shixun.server.controller" />
+      <recent name="com.shixun.server.config" />
+      <recent name="com.shixun.server.pojo" />
+      <recent name="com.shixun.server.config.webSocket" />
+      <recent name="com.shixun.server.converter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YebApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shixun.generator.CodeGenerator" />
+      <module name="yeb-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixun.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixun.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shixun.server.YebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YebSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yeb-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shixun.yebsys.YebSysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.YebApplication" />
+        <item itemvalue="应用程序.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9f6eae7f-779f-4220-8a87-b9afee551090" name="默认变更列表" comment="" />
+      <created>1657093748188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657093748188</updated>
+      <workItem from="1657093750127" duration="13768000" />
+      <workItem from="1657173002409" duration="2777000" />
+      <workItem from="1657185339399" duration="3363000" />
+      <workItem from="1657205745758" duration="3035000" />
+      <workItem from="1657243629369" duration="1850000" />
+      <workItem from="1657245509692" duration="476000" />
+      <workItem from="1657246005944" duration="3974000" />
+      <workItem from="1657252845707" duration="1546000" />
+      <workItem from="1657254601830" duration="2854000" />
+      <workItem from="1657287234795" duration="9356000" />
+      <workItem from="1657327783434" duration="10825000" />
+      <workItem from="1657346310853" duration="613000" />
+      <workItem from="1657347781122" duration="11594000" />
+      <workItem from="1657375321957" duration="4237000" />
+      <workItem from="1657417032637" duration="5036000" />
+      <workItem from="1657436877698" duration="6379000" />
+      <workItem from="1657501155253" duration="628000" />
+      <workItem from="1657521381158" duration="1944000" />
+      <workItem from="1657637096275" duration="4490000" />
+      <workItem from="1657672101648" duration="16088000" />
+      <workItem from="1657775928179" duration="473000" />
+      <workItem from="1657776498934" duration="41000" />
+      <workItem from="1657776558508" duration="5000" />
+      <workItem from="1657776761784" duration="14828000" />
+      <workItem from="1657848464640" duration="2139000" />
+      <workItem from="1657852828797" duration="1425000" />
+      <workItem from="1657860614762" duration="625000" />
+      <workItem from="1657895245014" duration="5043000" />
+      <workItem from="1658046659490" duration="3248000" />
+      <workItem from="1658068048494" duration="405000" />
+      <workItem from="1658069255891" duration="175000" />
+      <workItem from="1658192479179" duration="820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
