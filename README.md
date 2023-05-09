@@ -1,10 +1,10 @@
 # 项目介绍
-本项目是基于springboot和vue全家桶实现的中小型企业在线办公系统，涵盖了人事管理、部门管理、职位管理、权限管理以及在线聊天室等模块。目前前端部分已完成vue2和vue3两个版本。
+本项目是基于springboot和vue全家桶实现的中小型企业在线办公系统，涵盖了人事管理、部门管理、职位管理、权限管理以及在线聊天室等模块。目前前端部分已完成vue2和vue3两个版本。  
 
 ## 技术栈
-服务端：Spring Boot、Spring Security、Mybatis-plus、Swagger2、Redis
-前端vue2版本：vue2、vuex、element-ui、webpack
-前端vue3版本：vue3、pinia、element-plus、vite
+服务端：Spring Boot、Spring Security、Mybatis-plus、Swagger2、Redis  
+前端vue2版本：vue2、vuex、element-ui、webpack  
+前端vue3版本：vue3、pinia、element-plus、vite  
 
 # 功能介绍
 1.用户登录
