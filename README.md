@@ -1,1 +1,124 @@
-<div style="color: #cccccc;background-color: #1f1f1f;font-family: Consolas, 'Courier New', monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;"><div><span style="color: #569cd6;font-weight: bold;"># 项目介绍</span></div><div><span style="color: #cccccc;">   本项目是基于springboot和vue全家桶实现的中小型企业在线办公系统，涵盖了人事管理、部门管理、职位管理、权限管理以及在线聊天室等模块。</span></div><div><span style="color: #cccccc;">目前前端部分已完成vue2和vue3两个版本。</span></div><br><div><span style="color: #569cd6;font-weight: bold;">## 技术栈</span></div><div><span style="color: #cccccc;">服务端：Spring Boot、Spring Security、Mybatis-plus、Swagger2、Redis</span></div><br><div><span style="color: #cccccc;">前端vue2版本：vue2、vuex、element-ui、webpack</span></div><br><div><span style="color: #cccccc;">前端vue3版本：vue3、pinia、element-plus、vite</span></div><br><div><span style="color: #569cd6;font-weight: bold;"># 功能介绍</span></div><br><div><span style="color: #cccccc;">1.用户登录</span></div><div><span style="color: #cccccc;">用户登陆是在线办公系统的入口，用户登陆界面为初始化界面，对操作员登录权限进行核实确认，依据操作员的相应角色，赋予其不同等级的权限。</span></div><br><div><span style="color: #cccccc;">2.用户管理</span></div><div><span style="color: #cccccc;">操作员可对自身资料信息和登录密码进行修改。</span></div><br><div><span style="color: #cccccc;">3.员工管理</span></div><div><span style="color: #cccccc;">操作员可对员工资料进行增删改查，查询功能可分为精准查询与模糊查询。操作员可用excel文件形式导出并保存员工资料表。</span></div><div><span style="color: #cccccc;">操作员可对员工奖惩信息进行增删改。</span></div><br><div><span style="color: #cccccc;">4.薪资管理</span></div><div><span style="color: #cccccc;">操作员可对部门工资账套进行增删改，对企业员工工资账套进行修改。</span></div><br><div><span style="color: #cccccc;">5.部门管理</span></div><div><span style="color: #cccccc;">操作员可对各部门进行增删查。</span></div><br><div><span style="color: #cccccc;">6.职位职称管理</span></div><div><span style="color: #cccccc;">操作员可对企业现有职位职称进行增删改。</span></div><br><div><span style="color: #cccccc;">7.权限组</span></div><div><span style="color: #cccccc;">管理员可对操作员角色相应权限进行修改，获取不同的菜单权限。</span></div><br><div><span style="color: #cccccc;">8.操作员管理</span></div><div><span style="color: #cccccc;">系统管理员可对全体操作员进行增删改查，并可更改操作员登录权限。</span></div><br><div><span style="color: #cccccc;">9.聊天平台</span></div><div><span style="color: #cccccc;">操作员之间可进行即时的文字发送，有未读信息提示功能。</span></div><br><div><span style="color: #569cd6;font-weight: bold;"># 使用说明</span></div><div><span style="color: #cccccc;">vue2:</span></div><div><span style="color: #cccccc;">``` sh</span></div><div><span style="color: #dcdcaa;">npm</span><span style="color: #d4d4d4;"> </span><span style="color: #ce9178;">run</span><span style="color: #d4d4d4;"> </span><span style="color: #ce9178;">serve</span></div><div><span style="color: #cccccc;">```</span></div><div><span style="color: #cccccc;">vue3:</span></div><div><span style="color: #cccccc;">``` sh</span></div><div><span style="color: #dcdcaa;">npm</span><span style="color: #d4d4d4;"> </span><span style="color: #ce9178;">run</span><span style="color: #d4d4d4;"> </span><span style="color: #ce9178;">dev</span></div><div><span style="color: #cccccc;">```</span></div><div><span style="color: #569cd6;font-weight: bold;"># 目录结构说明</span></div><div><span style="color: #cccccc;">jrs</span></div><div><span style="color: #cccccc;">├─ back-front &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //后端代码</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ pom.xml</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ yeb-generator &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //代码生成器的配置</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ pom.xml</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;└─ src</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; └─ main</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;├─ java</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;│ &nbsp;└─ com</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;│ &nbsp; &nbsp; └─ shixun</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;└─ generator</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp;└─ resources</span></div><div><span style="color: #cccccc;">│ &nbsp;└─ yeb-server &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//服务端</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; ├─ pom.xml</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; └─ src</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp;└─ main</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ java</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;└─ com</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; └─ shixun</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp;└─ server</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ config &nbsp; &nbsp; &nbsp;//配置文件</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;├─ filter &nbsp; //权限控制</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;├─ redis</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;├─ security &nbsp;// SpringSecurity配置</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;└─ webSocket</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ controller &nbsp; //控制层</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ converter &nbsp; &nbsp;// 转换工具类</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ exception &nbsp; &nbsp;//全局异常</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ mapper</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ pojo &nbsp; &nbsp; &nbsp; &nbsp; //实体类</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ├─ service &nbsp; &nbsp; &nbsp;//服务类</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;└─ impl &nbsp; &nbsp; &nbsp;//服务实现类</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └─ utils &nbsp; &nbsp; &nbsp;//通用工具类</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └─ YebApplication.java</span></div><div><span style="color: #cccccc;">│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └─ resources</span></div><div><span style="color: #cccccc;">├─ vue2_version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //前端vue2版本代码</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ babel.config.js</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ jsconfig.json</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ package-lock.json</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ package.json</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ public &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//静态资源</span></div><div><span style="color: #cccccc;">│ &nbsp;├─ src</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ assets &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //字体 主题等静态资源</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ components &nbsp; &nbsp; &nbsp; &nbsp; //公共级组件</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ main.js</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ router &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //路由配置</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ store &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//vuex仓库</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;├─ utils &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//工具类</span></div><div><span style="color: #cccccc;">│ &nbsp;│ &nbsp;└─ views &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//页面级组件</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ App.vue</span></div><div><span style="color: #cccccc;">│ &nbsp;└─ vue.config.js</span></div><div><span style="color: #cccccc;">└─ vue3_version &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //前端vue3版本代码</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ auto-imports.d.ts</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ components.d.ts</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ env.d.ts</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ index.html</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ package-lock.json</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ package.json</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ public</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ src</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ api &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//请求的配置</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ assets</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ components</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ main.ts</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ router</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ stores &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //pinia仓库</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ types &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//约束数据类型</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;├─ utils</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;│ &nbsp;└─ views</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ App.vue</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ tsconfig.config.json</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;├─ tsconfig.json</span></div><div><span style="color: #cccccc;">&nbsp; &nbsp;└─ vite.config.ts</span></div><br><br></div>
+# 项目介绍    
+本项目是基于springboot和vue全家桶实现的中小型企业在线办公系统，涵盖了人事管理、部门管理、职位管理、权限管理以及在线聊天室等模块。  
+目前前端部分已完成vue2和vue3两个版本。    
+
+## 技术栈    
+服务端：Spring Boot、Spring Security、Mybatis-plus、Swagger2、Redis      
+  
+前端vue2版本：vue2、vuex、element-ui、webpack      
+  
+前端vue3版本：vue3、pinia、element-plus、vite      
+
+# 功能介绍    
+1.用户登录    
+用户登陆是在线办公系统的入口，用户登陆界面为初始化界面，对操作员登录权限进行核实确认，依据操作员的相应角色，赋予其不同等级的权限。    
+  
+2.用户管理    
+操作员可对自身资料信息和登录密码进行修改。    
+  
+3.员工管理    
+操作员可对员工资料进行增删改查，查询功能可分为精准查询与模糊查询。操作员可用excel文件形式导出并保存员工资料表。    
+操作员可对员工奖惩信息进行增删改。    
+  
+4.薪资管理    
+操作员可对部门工资账套进行增删改，对企业员工工资账套进行修改。 
+  
+5.部门管理    
+操作员可对各部门进行增删查。    
+  
+6.职位职称管理    
+操作员可对企业现有职位职称进行增删改。    
+  
+7.权限组    
+管理员可对操作员角色相应权限进行修改，获取不同的菜单权限。    
+  
+8.操作员管理    
+系统管理员可对全体操作员进行增删改查，并可更改操作员登录权限。    
+  
+9.聊天平台    
+操作员之间可进行即时的文字发送，有未读信息提示功能。    
+  
+# 使用说明    
+vue2:    
+``` sh
+npm run serve
+```    
+vue3:    
+``` sh
+npm run dev
+```    
+
+# 目录结构说明    
+jrs    
+├─ back-front &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;//后端代码    
+│  ├─ pom.xml    
+│  ├─ yeb-generator &nbsp; &nbsp; &nbsp; &nbsp;//代码生成器的配置    
+│  │  ├─ pom.xml    
+│  │  └─ src    
+│  │     └─ main    
+│  │        ├─ java    
+│  │        │  └─ com    
+│  │        │     └─ shixun    
+│  │        │        └─ generator    
+│  │        └─ resources    
+│  └─ yeb-server  &nbsp; &nbsp; &nbsp; &nbsp;//服务端    
+│     ├─ pom.xml    
+│     └─ src    
+│        └─ main    
+│           ├─ java    
+│           │  └─ com    
+│           │     └─ shixun    
+│           │        └─ server    
+│           │           ├─ config  &nbsp; &nbsp; &nbsp; &nbsp;//配置文件    
+│           │           │  ├─ filter &nbsp; &nbsp; &nbsp; &nbsp;//权限控制    
+│           │           │  ├─ redis    
+│           │           │  ├─ security &nbsp; &nbsp; &nbsp; &nbsp;// SpringSecurity配置    
+│           │           │  └─ webSocket    
+│           │           ├─ controller &nbsp; &nbsp; &nbsp; &nbsp;//控制层    
+│           │           ├─ converter  &nbsp; &nbsp; &nbsp; &nbsp;// 转换工具类    
+│           │           ├─ exception  &nbsp; &nbsp; &nbsp; &nbsp;//全局异常    
+│           │           ├─ mapper    
+│           │           ├─ pojo      &nbsp; &nbsp; &nbsp; &nbsp;//实体类    
+│           │           ├─ service   &nbsp; &nbsp; &nbsp; &nbsp;//服务类    
+│           │           │  └─ impl   &nbsp; &nbsp; &nbsp; &nbsp; //服务实现类    
+│           │           └─ utils   &nbsp; &nbsp; &nbsp; &nbsp;//通用工具类    
+│           │           └─ YebApplication.java    
+│           └─ resources    
+├─ vue2_version      &nbsp; &nbsp; &nbsp; &nbsp; //前端vue2版本代码    
+│  ├─ babel.config.js    
+│  ├─ jsconfig.json    
+│  ├─ package-lock.json    
+│  ├─ package.json    
+│  ├─ public       &nbsp; &nbsp; &nbsp; &nbsp; //静态资源    
+│  ├─ src    
+│  │  ├─ assets     &nbsp; &nbsp; &nbsp; &nbsp; //字体 主题等静态资源    
+│  │  ├─ components   &nbsp; &nbsp; &nbsp; &nbsp; //公共级组件    
+│  │  ├─ main.js    
+│  │  ├─ router   &nbsp; &nbsp; &nbsp; &nbsp;//路由配置    
+│  │  ├─ store  &nbsp; &nbsp; &nbsp; &nbsp; //vuex仓库    
+│  │  ├─ utils   &nbsp; &nbsp; &nbsp; &nbsp;//工具类    
+│  │  └─ views   &nbsp; &nbsp; &nbsp; &nbsp;//页面级组件    
+   ├─ App.vue    
+│  └─ vue.config.js    
+└─ vue3_version  &nbsp; &nbsp; &nbsp; &nbsp;//前端vue3版本代码    
+   ├─ auto-imports.d.ts    
+   ├─ components.d.ts    
+   ├─ env.d.ts    
+   ├─ index.html    
+   ├─ package-lock.json    
+   ├─ package.json    
+   ├─ public    
+   ├─ src    
+   │  ├─ api   &nbsp; &nbsp; &nbsp; &nbsp;//请求的配置    
+   │  ├─ assets    
+   │  ├─ components    
+   │  ├─ main.ts    
+   │  ├─ router    
+   │  ├─ stores  &nbsp; &nbsp; &nbsp; &nbsp; //pinia仓库    
+   │  ├─ types   &nbsp; &nbsp; &nbsp; &nbsp; //约束数据类型    
+   │  ├─ utils    
+   │  └─ views    
+   ├─ App.vue    
+   ├─ tsconfig.config.json    
+   ├─ tsconfig.json    
+   └─ vite.config.ts    
